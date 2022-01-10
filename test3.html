@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+h1,h2,h3,h4,h5,h6 {font-family: "Oswald"}
+body {font-family: "Open Sans"}
+</style>
+<body class="w3-light-grey">
+
+
+
+  
+<!-- w3-content defines a container for fixed size centered content, 
+and is wrapped around the whole page content, except for the footer in this example -->
+<div class="w3-content" style="max-width:1600px">
+
+  <!-- Header -->
+  <header class="w3-container w3-center w3-padding-48 w3-white">
+    <h1 class="w3-xxxlarge"><b>Evan blog</b></h1>
+    <h6>Bienvenu sur mon blog <span class="w3-tag">Mes sportifs préférés</span></h6>
+  </header>
+
+
+  <!-- Grid -->
+  <div class="w3-row w3-padding w3-border">
+
+    <!-- Blog entries -->
+    <div class="w3-col l8 s12">
+    
+      <!-- Blog entry -->
+      <div class="w3-container w3-white w3-margin w3-padding-large">
+        <div class="w3-center">
+          <h3>Mickael Jordan</h3>
+          <h5>Basketteur professionnel, <span class="w3-opacity">Jan 2022</span></h5>
+        </div>
+
+        <div class="w3-justify">
+          <img src="https://th.bing.com/th/id/OIP.PnuV3rDWwjmVdo8r8ecXuQAAAA?pid=ImgDet&rs=1" alt="Ceci est une image de Mickael Jordan" style="width:20%" class="w3-padding-16" width=20 % height=50% > <p> <strong>Qui est-ce ?</strong> Il s'agit du plus grand joueur de basket de l'histoire, pour moi, il s'agit même du plus grand sportif de tous les temps. Il a tout gagné mais c'est sa mentalité, détermination, discipline, et sa soif de vaincre qui fait que je l'admire. Parti de rien, il est devenu celui que tout le monde rêve de devenir. Champion NBA à six reprises, vainqueur des jeux olympiques avec les Etats-Unis. Il détient tout les reccords individuels de son sport. Ce qui fait qui il est devenu est bien évidemment sa mentalité de compétiteur qui n'a pas d'égal. Pour lui chaques matchs, chaques minutes joués, chaques ballons touchés étaient  joués corps et âmes avec la hantise de la défaite qui pour lui était inaxeptable. C'est pour cela, que pendant toute sa carrière il a travaillé presque tous les jours de sa vie sur son basket. Mickael Jordan, au-delà du basket est devenu une source d'inspiration grâce à son carractère unique et sa force mentale. Qui ne connaît pas Mickael Jordan ? Personne! </p>
+    
+          <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
+          <p class="w3-clear"></p>
+         
+        </div>
+      </div>
+      <hr>
+
+      <!-- Blog entry -->
+      <div class="w3-container w3-white w3-margin w3-padding-large">
+        <div class="w3-center">
+          <h3>Simone Biles</h3>
+          <h5>Gymnaste professionnelle, <span class="w3-opacity">Jan 2022</span></h5>
+        </div>
+
+        <div class="w3-justify">
+          <img src="https://media.glamour.com/photos/5e790d6ff80a380009471496/master/pass/summer.jpg" alt="Men in Hats" style="width:30%" class="w3-padding-16">
+          <p><strong>Qui est-ce ? </strong> Il s'agit de la grande gymnaste au monde. Ce qui me facine chez cette grande sportive c'est son histoire. Une histoire hors du commun et unique. A l'âge de 6 ans, Simone et sa soeur ont dû être adopté par leurs grands-parents car leurs parents avaient une addiction aux drogues ainsi qu'à l'alcool. Elle a grandi sans parents, elle a donc rejetté sa douleur et sa peine dans la gymnastique, sous l'influence de son grand-père. Petite prodige, très tôt elle est surclassé en niveau. Elle se fait repérée par de grandes institutions de gymnastique. Pour beaucoup, elle mérite d'être appellé en équipe junior des Etats-Unis, ce qui est son rêve. Malheureusement, une fois dans l'équipe junior, la coach de l'époque lui fera vivre un calevaire, la prendre en grippe, ce qui va ammener Simone Biles à6 la dégouter de la gymnastique. En parallèlle, elle est face à un dilemne, continuer les études ou faire de la gymnastique. Même si son rêve de disputer les JO, il s'est un peu éloigné suite aux altercations avec sa coach. De plus, une blessure vient se rajouter aux choix de son dilemne. A la limite d'arreter, grâce à une grande remise en question, et surtout grâce à une longue discution avec sa grand-mère, Simone va consacrer sa vie à la gymnastique et ainsi faire des sacrifices enorme pour une jeune fille de 15 ans. Aujourd'hui elle a réalisé son rêve en gagnant non pas une fois mais quatre fois les JO et Dix neufs fois les championnats du monde. Un ardent désir, un rêve profond et une envie de réussir on fait de Simone Biles, une des plus grandes sportive de l'histoire. </p>
+          <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
+          <p class="w3-right">
+        
+        </div>
+      </div>
+
+      <!-- Blog entry -->
+      <div class="w3-container w3-white w3-margin w3-padding-large">
+        <div class="w3-center">
+          <h3>Serena Williams</h3>
+          <h5>Tennis Women professionnelle, <span class="w3-opacity">Jan 2022</span></h5>
+        </div>
+
+        <div class="w3-justify">
+          <img src="https://th.bing.com/th/id/R.237b517876d2da70de583e36c18aab7f?rik=s6vmRcR4Mux9bA&pid=ImgRaw&r=0" alt="Runway" style="width:20%" class="w3-padding-16">
+          <p><strong>Qui est-ce ?</strong> Il s'agit de la plus grande joueuse de tennis de l'histoire. Comme Simone Biles, ce qui me fascine chez cette grande femme, c'es son histoire, sa détermination, son envie de gagner et de marquer l'histoire. Williams à grandit dans une famille pauvre, avec plusieurs soeurs et surtout un père fan de tennis qui rêve de voir sa fille jouer au tennis. Avec sa soeur ainée Venus Williams, Serena va s'entrainer avec son père durant quelques années ce qui va lui permettre d'acquérir un niveau très intéressant. Malgré son niveau de jeu et surtout sa mentalité de gagnante déja bien en place, personne croit en Serena sauf son père qui lui est persuadé que ça fille sera une championne. Malheureusement, Serena va vivre dans l'ombre de sa soeur Venus qui elle va devenir joueuse professionnelle. Elle va alors encore plus travailler pour se démarquer de sa soeur et va dévouer sa vie au tennis. Aujourd'hui, Serena Williams est devenu la plus grande championne femminine de l'histoire, elle a gagné 1 fois les JO mais surtout 23 titres du Grand Chelem. Son caractère de battante, sa mentalité unique et sa haine de la défaite en on fait ce qu'elle est devenu.   </p>
+          <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
+          <p class="w3-right">
+          
+         
+        </div>
+      </div>
+        
+      
+    <!-- END BLOG ENTRIES -->
+    </div>
+
+    <!-- About/Information menu -->
+    <div class="w3-col l4">
+      <!-- About Card -->
+      <div class="w3-white w3-margin">
+      
+        <div class="w3-container w3-black">
+          <h4>Evan Cholet
+            </h4>
+          <p> Depuis tout petit, je suis passionné par le sport. J'en ai pratiqué toute ma vie, Judo, Tennis, mais surtout du Football. Pour moi chaque sportif de haut niveau a son histoire et me passionne. Mais ce qui m'attire le plus c'est surtout l'histoire et la mentalité du sportif. </p>
+        </div>
+      </div>
+      <hr>
+
+      <!-- Posts -->
+    
+
+      <!-- Advertising -->
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-black">
+          <h4>JO Paris en 2024</h4>
+        </div><img src="https://assets.sport.francetvinfo.fr/sites/default/files/styles/large_16_9/public/2019-04/024_3147494.jpg?h=760868e1&itok=Wji_T-sK" alt="Runway" style="width:100%" class="w3-padding-16">
+        <div class="w3-container w3-white">
+          
+        </div>
+      </div>
+      <hr>
+
+      <!-- Tags -->
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-black">
+          <h4>Autres sportifs</h4>
+        </div>
+        <div class="w3-container w3-white">
+          <p>
+            <span class="w3-tag w3-black w3-margin-bottom">Nadal</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Phelps</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Messi</span>
+            <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Ali</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">McGregor</span>
+
+          </p>
+        </div>
+      </div>
+      <hr>
+
+      <!-- Inspiration -->
+     
+      
+      <!-- Subscribe -->
+    
+
+    <!-- END About/Intro Menu -->
+    </div>
+
+  <!-- END GRID -->
+  </div>
+
+<!-- END w3-content -->
+</div>
+
+<!-- Subscribe Modal -->
+<div id="subscribe" class="w3-modal w3-animate-opacity">
+  <div class="w3-modal-content" style="padding:32px">
+    <div class="w3-container w3-white">
+      <i onclick="document.getElementById('subscribe').style.display='none'" class="fa fa-remove w3-transparent w3-button w3-xlarge w3-right"></i>
+      <h2 class="w3-wide">SUBSCRIBE</h2>
+      <p>Join my mailing list to receive updates on the latest blog posts and other things.</p>
+      <p><input class="w3-input w3-border" type="text" placeholder="Enter e-mail"></p>
+      <button type="button" class="w3-button w3-block w3-padding-large w3-red w3-margin-bottom" onclick="document.getElementById('subscribe').style.display='none'">Subscribe</button>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-dark-grey" style="padding:32px">
+  <a href="#" class="w3-button w3-black w3-padding-large w3-margin-bottom"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+</footer>
+
+<script>
+// Toggle between hiding and showing blog replies/comments
+document.getElementById("myBtn").click();
+function myFunction(id) {
+  var x = document.getElementById(id);
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+function likeFunction(x) {
+  x.style.fontWeight = "bold";
+  x.innerHTML = "✓ Liked";
+}
+</script>
+
+</body>
+</html>
